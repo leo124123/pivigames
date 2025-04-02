@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+}
+
+.container-barra {
+    background-color: #FF4D4D; 
+    height: 70px;
+    padding: 15px 20px;
+    margin: 0px 30px;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 22%;
+    
+}
+
+.header ul li {
+    position: relative;
+   
+}
+
+.header ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: .89rem;
+    
+}
+.logo {
+    margin-bottom: 20px;
+    position: absolute;
+    width: 20%;
+    height: auto;
+    opacity: 0.9;
+    
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #10aad4;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.submenu li:hover {
+    background: #666;
+}
+
+.categoria:hover .submenu {
+    display: block;
+}
+
+.section-sekiro {
+
+
+}
+
+
+.titulo {
+    font-family: 'Montserrat', 'Oswald', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    position: relative;
+    margin-left: 18%;
+    margin-top: 55px;
+    font-size: 2.3rem;
+}
+
+.sekiro {
+    margin-top: 45px;
+    margin-left: 18%;
+    width: 690px;
+    transition: 2s;
+}
+
+.sekiro:hover {
+    transform: translateY(-10px);
+    background-color: black;
+}
+
+
+.botones {
+    display: flex;
+    gap:15 px; 
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.3s;
+    min-width: 180px; /* Tamaño mínimo para mantener la estructura */
+}
+
+.btn.azul {
+    background: #007BDB;
+    border-bottom: 4px solid #005F9E;
+    margin-left: 25%;
+    height: 62px;
+}
+
+.btn.rojo {
+    background: #FF5A5A;
+    border-bottom: 4px solid #D43C3C;
+    margin-left: 5%;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.sub-2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20%;
+    text-decoration: underline;
+    color:  #FF6600;
+    font-size: 1.8rem;
+    transition: 2s;
+}
+
+.sub-2:hover {
+    color: #FFFFFF;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00
+}
+
+.contenido-sk {
+    position: absolute;
+    margin: 11% 16%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000; /* Color negro */
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 750px; 
+}
+
+.sub-3 {
+    margin: 20% 16%;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000; /* Color negro */
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 750px; 
+
+
+}
+
+.contenido-sk strong {
+    font-weight: bold;
+}
+
+.titulo-ficha {
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 35%;
+    text-decoration: underline;
+    color:  #FF6600;
+    font-size: 1.8rem;
+    transition: 2s;
+}
+
+.titulo-ficha:hover {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00
+}
+.ficha-contenido {
+    margin-top: 35%;
+    margin-left: 10%;
+    position: absolute;
+
+}
+.info {
+    margin: 15px 0;
+}
+
+.info strong {
+    color: black;
+}
+
+.red {
+    color: rgb(240, 6, 6);
+}
+
+.idioma {
+    position: absolute;
+    width: 220px;
+    margin-left: 115%;
+
+   
+}
+.titulo-compra{
+    margin-bottom:15px;
+    margin-left: 40px;
+    font-size: 1.2rem;
+
+}
+
+.compra{
+    margin-top: 60%;
+    margin-left: 100px;
+}
+
+.steam-card {
+    background-color: #2a2d32;
+    color: white;
+    width: 525px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    
+}
+
+.steam-card img {
+    width: 100%;
+}
+
+.steam-card-content {
+    padding: 15px;
+}
+
+.steam-card h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.steam-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.steam-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #1b1d21;
+}
+
+.price {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.buy-button {
+    background: #5aa02c;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buy-button:hover {
+    background: #4d8f25;
+}
